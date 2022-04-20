@@ -1,0 +1,40 @@
+body {
+	background-image: url("images/background-sea.gif");
+	color: white;
+}
+h1 {
+	text-align: center;
+	text-shadow: -2px -2px lightblue, -2px -1.5px lightblue, -2px -1px lightblue,
+		-2px -0.5px lightblue, -2px 0px lightblue, -2px 0.5px lightblue,
+		-2px 1px lightblue, -2px 1.5px lightblue, -2px 2px lightblue,
+		-1.5px 2px lightblue, -1px 2px lightblue, -0.5px 2px lightblue,
+		0px 2px lightblue, 0.5px 2px lightblue, 1px 2px lightblue,
+		1.5px 2px lightblue, 2px 2px lightblue, 2px 1.5px lightblue,
+		2px 1px lightblue, 2px 0.5px lightblue, 2px 0px lightblue,
+		2px -0.5px lightblue, 2px -1px lightblue, 2px -1.5px lightblue,
+		2px -2px lightblue, 1.5px -2px lightblue, 1px -2px lightblue,
+		0.5px -2px lightblue, 0px -2px lightblue, -0.5px -2px lightblue,
+		-1px -2px lightblue, -1.5px -2px lightblue;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+a:hover {
+	color: yellow;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.menu-img {
+	height: auto;
+	width: 12.5em;
+	border: 3px solid black;
+}
+.recipes {
+	display: flex;
+	justify-content: center;
+}
